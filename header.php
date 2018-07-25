@@ -3,11 +3,6 @@
 <head>
   <!-- Required meta tags -->
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <title>Hello, world!</title>
-
-  <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
 <?php wp_head();?>
 </head>
@@ -16,7 +11,7 @@
 
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <div class="container">
-    <a class="navbar-brand" href="#">Navbar</a>
+    <a class="navbar-brand" href="#">Simple WP Theme</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -44,9 +39,13 @@
           <a class="nav-link disabled" href="#">Disabled</a>
         </li>
       </ul>
-      <form class="form-inline my-2 my-lg-0">
-        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      <form class="my-2 my-lg-0">
+        <div class="input-group">
+          <input type="text" class="form-control" placeholder="search" aria-label="Recipient's username" aria-describedby="button-addon2">
+          <div class="input-group-append">
+            <button class="btn btn-secondary" type="button" id="button-addon2"><i class="fa fa-search"></i></button>
+          </div>
+        </div>
       </form>
     </div>
   </div>
